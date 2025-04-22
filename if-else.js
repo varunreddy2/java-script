@@ -1,23 +1,16 @@
-let marks = 100
+// Discount based on their age 
+let age = 70
 
-if (marks >= 90) {
-    console.log("Excellent");
+if (age <= 10) {
+    console.log("50% Off");
 
-} else if (marks >= 70) {
-    console.log("good");
+} else if (age >= 10 & age <= 18) {
+    console.log("30% Off");
 
-} else if (marks >= 50) {
-    console.log("average");
-
-} else if (marks >= 35) {
-    console.log("passed");
+} else if (age >= 10 & age <= 59) {
+    console.log("10% Off");
 
 } else {
-    console.log("fail");
+    console.log("40% Off");
 
 }
-
-let resluts = marks >= 35 ? "pass" : "fail"
-console.log(resluts);
-
-
